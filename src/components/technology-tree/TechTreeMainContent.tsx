@@ -22,7 +22,6 @@ interface TechTreeMainContentProps {
   };
   hasUserMadeSelection: boolean;
   scenario?: string;
-  onEditScenario?: (newScenario: string) => void;
   conversationHistory?: any[];
   handleAddLevel4?: () => void;
   searchMode?: string;
@@ -39,7 +38,6 @@ export const TechTreeMainContent = ({
   levelNames,
   hasUserMadeSelection,
   scenario,
-  onEditScenario,
   conversationHistory,
   handleAddLevel4,
   searchMode
@@ -56,7 +54,6 @@ export const TechTreeMainContent = ({
       levelNames={levelNames}
       hasUserMadeSelection={hasUserMadeSelection}
       scenario={scenario}
-      onEditScenario={onEditScenario}
       conversationHistory={conversationHistory}
       onAddLevel4={handleAddLevel4}
       searchMode={searchMode}
