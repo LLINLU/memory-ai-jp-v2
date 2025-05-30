@@ -173,7 +173,6 @@ const TechnologyTree = () => {
               levelNames={levelNames}
               hasUserMadeSelection={hasUserMadeSelection}
               scenario={scenario}
-              onEditScenario={handleEditScenario}
               conversationHistory={savedConversationHistory}
               handleAddLevel4={handleAddLevel4}
               searchMode={searchMode}
